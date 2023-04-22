@@ -1,0 +1,116 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #E9EBEE;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Button Styles */
+  .button {
+    background-color: #1c6ef2;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .button:hover {
+    background-color: #1453c9;
+    cursor: pointer;
+  }
+  
+  /* Image Styles */
+  .image-container {
+    max-width: 600px;
+    margin-bottom: 20px;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Hidden Content Styles */
+  .hidden {
+    display: none;
+  }
+  
+  /* Page-Specific Styles */
+  body.index {
+    background-image: linear-gradient(to bottom right, #1c6ef2, #4e42a7);
+  }
+  
+  body.page1 {
+    background-image: linear-gradient(to bottom right, #e3a3d5, #8b44ad);
+  }
+  
+  body.page2 {
+    background-image: linear-gradient(to bottom right, #72f2ff, #5f5fd2);
+  }
+  
+  body.page3 {
+    background-image: linear-gradient(to bottom right, #ffbe5f, #ff7880);
+  }
+  
+  body.page4 {
+    background-image: linear-gradient(to bottom right, #6cd8ab, #4ea6b9);
+  }
+  
+  /* Mobile Styles */
+@media only screen and (max-width: 767px) {
+    /* Styles for devices with screen width up to 767px */
+    .container {
+      max-width: 100%;
+      padding: 10px;
+    }
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Styles for devices with screen width between 768px and 1024px */
+    .container {
+      max-width: 100%;
+      padding: 20px;
+    }
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 1025px) {
+    /* Styles for devices with screen width above 1025px */
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+  }
+  
